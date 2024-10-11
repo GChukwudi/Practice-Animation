@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
         name: 'Product 1',
         imageUrl: 'assets/pexels-eprism-studio-108171-335257.jpg',
         price: 10.0),
-    Product(name: 'Product 2', imageUrl: 'assets/kpu', price: 20.0),
+    Product(name: 'Product 2', imageUrl: 'assets/kpauksh', price: 20.0),
     Product(
         name: 'Product 3',
         imageUrl: 'https://via.placeholder.com/150',
