@@ -16,7 +16,7 @@ class _MyAppState extends State<MyApp> {
   bool isDarkTheme = false;
 
   List<Product> products = [
-    Product(name: 'Product 1', imageUrl: 'assets/product_1.jpg', price: 10.0),
+    Product(name: 'Product 1', imageUrl: 'assets/', price: 10.0),
     Product(name: 'Product 2', imageUrl: 'assets/product_2.jpg', price: 20.0),
     Product(name: 'Product 3', imageUrl: 'assets/product_3.jpg', price: 30.0),
     Product(name: 'Product 4', imageUrl: 'assets/product_4.jpg', price: 40.0),
