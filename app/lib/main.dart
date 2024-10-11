@@ -18,12 +18,9 @@ class _MyAppState extends State<MyApp> {
   List<Product> products = [
     Product(
         name: 'Product 1',
-        imageUrl: 'https://via.placeholder.com/150',
+        imageUrl: 'assets/pexels-eprism-studio-108171-335257.jpg',
         price: 10.0),
-    Product(
-        name: 'Product 2',
-        imageUrl: 'https://via.placeholder.com/150',
-        price: 20.0),
+    Product(name: 'Product 2', imageUrl: 'assets/kpu', price: 20.0),
     Product(
         name: 'Product 3',
         imageUrl: 'https://via.placeholder.com/150',
@@ -33,6 +30,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Store',
       theme: isDarkTheme ? MyTheme.darkTheme : MyTheme.lightTheme,
       home: CatalogPage(
