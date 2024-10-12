@@ -57,7 +57,7 @@ class CatalogPage extends StatelessWidget {
         title: Text('Flutter Store'),
         actions: [
           IconButton(
-            icon: Icon(Icons.brightness_6),
+            icon: Icon(Icons.brightness_3_rounded),
             onPressed: onThemeToggle,
           ),
         ],
@@ -88,8 +88,8 @@ class CatalogPage extends StatelessWidget {
             child: Card(
               child: Column(
                 children: [
-                  Image.network(products[index].imageUrl,
-                      height: 100, width: 100),
+                  Image.asset(products[index].imageUrl,
+                      height: 200, width: 200),
                   Text(products[index].name),
                   Text('\$${products[index].price.toString()}'),
                 ],
