@@ -16,10 +16,14 @@ class _MyAppState extends State<MyApp> {
   bool isDarkTheme = false;
 
   List<Product> products = [
-    Product(name: 'Product 1', imageUrl: 'assets/', price: 10.0),
-    Product(name: 'Product 2', imageUrl: 'assets/product_2.jpg', price: 20.0),
-    Product(name: 'Product 3', imageUrl: 'assets/product_3.jpg', price: 30.0),
-    Product(name: 'Product 4', imageUrl: 'assets/product_4.jpg', price: 40.0),
+    Product(
+        name: 'Product 1', imageUrl: 'assets/images/product1.jpg', price: 10.0),
+    Product(
+        name: 'Product 2', imageUrl: 'assets/images/prodct2.jpg', price: 20.0),
+    Product(
+        name: 'Product 3', imageUrl: 'assets/images/product3.jpg', price: 30.0),
+    Product(
+        name: 'Product 4', imageUrl: 'assets/images/product4.jpg', price: 40.0),
   ];
 
   @override
