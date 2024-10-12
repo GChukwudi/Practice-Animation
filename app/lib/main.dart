@@ -19,7 +19,7 @@ class _MyAppState extends State<MyApp> {
     Product(
         name: 'Product 1', imageUrl: 'assets/images/product1.jpg', price: 10.0),
     Product(
-        name: 'Product 2', imageUrl: 'assets/images/prodct2.jpg', price: 20.0),
+        name: 'Product 2', imageUrl: 'assets/images/product2.jpg', price: 20.0),
     Product(
         name: 'Product 3', imageUrl: 'assets/images/product3.jpg', price: 30.0),
     Product(
@@ -61,6 +61,7 @@ class CatalogPage extends StatelessWidget {
             onPressed: onThemeToggle,
           ),
         ],
+        // titleTextStyle: TextStyle(fontFamily: 'Montserrat', fontSize: 24),
       ),
       body: GridView.builder(
         gridDelegate:
@@ -89,7 +90,7 @@ class CatalogPage extends StatelessWidget {
               child: Column(
                 children: [
                   Image.asset(products[index].imageUrl,
-                      height: 200, width: 200),
+                      height: 150, width: 150),
                   Text(products[index].name),
                   Text('\$${products[index].price.toString()}'),
                 ],
